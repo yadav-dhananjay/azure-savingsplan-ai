@@ -18,3 +18,14 @@ azure_openai:
   endpoint: "https://<your-aoai-endpoint>.openai.azure.com/"
   api_key: "<AZURE_OPENAI_KEY>"
   deployment: "gpt-4o"
+
+
+
+
+Notes:
+
+savings_plan_hourly_commitment reflects your Azure Savings Plan hourly commitment; this repo uses it to approximate utilization and unused commitment for reporting. [web:19][web:22]
+
+endpoint must be your Azure OpenAI endpoint URL.
+
+deployment must match an existing chat model deployment (for example, gpt-4o or equivalent). [web:21]
