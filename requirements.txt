@@ -1,0 +1,10 @@
+azure-identity
+azure-mgmt-costmanagement
+azure-core
+requests
+pandas
+pyyaml
+numpy
+prophet
+statsmodels
+openpyxl

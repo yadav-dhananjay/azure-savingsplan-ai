@@ -1,0 +1,20 @@
+
+tenant_id: "<TENANT_ID>"
+client_id: "<CLIENT_ID>"
+client_secret: "<CLIENT_SECRET>"
+
+subscriptions:
+  - id: "<SUBSCRIPTION_ID_1>"
+    name: "Prod-Subscription"
+  - id: "<SUBSCRIPTION_ID_2>"
+    name: "NonProd-Subscription"
+
+savings_plan_hourly_commitment: 120.0
+
+forecast:
+  days: 60
+
+azure_openai:
+  endpoint: "https://<your-aoai-endpoint>.openai.azure.com/"
+  api_key: "<AZURE_OPENAI_KEY>"
+  deployment: "gpt-4o"
